@@ -1,7 +1,7 @@
 {
   "name": "nereden-baslamaliyim",
-  "version": "1.0.1",
-  "description": "Parceljs ile react boilerplate. Bu boilerplate ile küçük ve orta düzey projelerinizin alt yapısını oluşturabilirsiniz.",
+  "version": "1.0.0",
+  "description": "Bilgisayar dünyasına giriş yapmak isteyip nereden başlayacağını bilmeyenlere yol göstermek.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -9,10 +9,9 @@
     "build": "rm -rf .cache && rm -rf dist && parcel build ./public/index.html  --public-url ./"
   },
   "keywords": [
-    "react",
-    "parcel",
-    "boilerplate",
-    "parcel-react-boilerplate"
+    "nereden-başlamalıyım",
+    "topluluk",
+    "yazılım"
   ],
   "author": "Burhan Yılmaz",
   "license": "ISC",
