@@ -12,8 +12,8 @@ Hızlı Kurulum
 -------------
 
 ```sh
-$ git clone https://github.com/burhanyilmaz/neredenbaslamaliyim
-$ cd neredenbaslamaliyim
+$ git clone https://github.com/burhanyilmaz/nereden-baslamaliyim
+$ cd nereden-baslamaliyim
 $ npm install || yarn install
 $ npm start || yarn start
 
