@@ -26,7 +26,7 @@ Komutlar
 |Script|Tanım|
 |---|---|
 |`npm start`| `localhost:1234` adresinde geliştirme server'ını başlatır.|
-|`npm run build`| Uygulamanun production'a hazır halini `./dist`'e çıkarır.|
+|`npm run build`| Uygulamanın production'a hazır halini `./dist`'e çıkarır.|
 |`npm run test`| Testleri çalıştırmayı sağlar.|
 
 ### Demo
