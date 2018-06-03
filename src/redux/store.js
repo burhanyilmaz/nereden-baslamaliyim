@@ -8,6 +8,6 @@ export default createStore(
     reducers,
     INITIAL_STATE,
     compose(
-        applyMiddleware(thunk),
+        applyMiddleware(thunk)
     )
 );

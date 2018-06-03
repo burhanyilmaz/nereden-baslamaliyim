@@ -1,3 +1,5 @@
+$background-color: #ce0753;
+
 * {
     margin: 0;
     padding: 0;
@@ -27,7 +29,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: #4caf50;
+    background-color: $background-color;
     margin-top: 10px;
   }
 

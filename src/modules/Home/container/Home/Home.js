@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
-import '../../style/style.css';
+import PropTypes from 'prop-types';
+import '../../style/style.scss';
 
 class Home extends Component {
 
     increaseCounter() {
         const { counter, changeCounter } = this.props;
+
         return changeCounter(counter + 1);
     }
 
     decreaseCounter() {
         const { counter, changeCounter } = this.props;
+
         return changeCounter(counter - 1);
     }
 
@@ -18,7 +21,7 @@ class Home extends Component {
 
         return(
             <div>
-               <h3>Nereden Başlamalıyım Proje Başlangıç</h3>
+                <h3>Nereden Başlamalıyım Proje Başlangıç</h3>
                 <div className="container">
                     <div className="column minus" onClick={() => this.decreaseCounter()}>
                         <span>−</span>
@@ -29,10 +32,15 @@ class Home extends Component {
                     <div className="column plus" onClick={() => this.increaseCounter()}>
                         <span>+</span>                    
                     </div>
-               </div>
+                </div>
             </div>
         );
     }
+}
+
+Home.propTypes = {
+    counter: PropTypes.number.isRequired,
+    changeCounter: PropTypes.func.isRequired,
 }
 
 export default Home;
