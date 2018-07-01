@@ -16,6 +16,7 @@
             "blockBindings": true
         }
     },
+    "parser": "babel-eslint",
     "rules": {
         "no-underscore-dangle": [0],
         "import/prefer-default-export": [0],
