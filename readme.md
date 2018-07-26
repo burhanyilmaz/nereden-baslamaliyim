@@ -58,7 +58,7 @@ Komutlar
 │   │       │   └── style.css
 │   │       └── __test__
 │   │           └── container
-│   │               ├── ParcelHome.test.js
+│   │               ├── Home.test.js
 │   │               └── __snapshots__
 │   │                   └── ParcelHome.test.js.snap
 │   ├── redux
