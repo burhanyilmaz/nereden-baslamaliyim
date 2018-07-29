@@ -4,13 +4,14 @@ import {
     ToolbarRow,
     ToolbarSection,
 } from 'rmwc/Toolbar';
+import Logo from '../../../../resources/images/logo/128.png';
 
 const Header = () => {
     return (
         <Toolbar className="headerContainer">
             <ToolbarRow>
                 <ToolbarSection alignStart>
-                    <img className="logo" src="http://i.hizliresim.com/LDbaGZ.png" />
+                    <img className="logo" src={Logo} />
                 </ToolbarSection>
                 <ToolbarSection shrinkToFit>
                     <div className="navLink">Anasayfa</div>
