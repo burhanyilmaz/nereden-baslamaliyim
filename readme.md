@@ -8,6 +8,9 @@ Bilgisayar dünyasına giriş yapmak isteyip nereden başlayacağını bilmeyenl
 ## İlk Hedef
 Başlangıç olarak yalnızca yazılım alanında yol göstermek hızlı bir şekilde ürünümüzü ortaya çıkarmamızı sağlayacaktır. Daha sonra ki zamanlarda bu amacı farklı alanlarda da yön göstermeyi sağlayacak şekilde dallandırabiliriz.
 
+## Demo
+![](./resources/images/sample.png)
+
 Hızlı Kurulum
 -------------
 
