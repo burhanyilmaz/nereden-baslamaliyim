@@ -58,7 +58,9 @@ $background-color: #ce0753;
     text-align: center;
     padding: 16px;
     padding-top: 32px; 
+    padding-bottom: 60px; 
     background-color: #f7f7f7c4;
+
     .title {
       font-size: 36px;
       font-weight: 500;
@@ -78,7 +80,7 @@ $background-color: #ce0753;
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 250px;
+    height: 350px;
     border: 2px solid #f4f4f4b3;
     background-color: #ffffff;
 

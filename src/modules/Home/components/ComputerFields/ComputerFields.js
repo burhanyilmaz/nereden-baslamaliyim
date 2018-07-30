@@ -14,6 +14,9 @@ const ComputerFields = () => {
                     <FieldCard />
                     <FieldCard />
                     <FieldCard />
+                    <FieldCard />
+                    <FieldCard />
+                    <FieldCard />
                 </Grid>
             </div>
         </div>
